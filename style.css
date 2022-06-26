@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html {
+    font: 16px/1.4 Georgia, serif ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.page {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    font: 3.5rem/1 'Pacifico', cursive;
+    margin: 0 0 1rem;
+}
+
+p {
+    margin: 0 0 0.5rem; 
+}
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
+.section-col {
+    width: 50%;
+    position: relative;
+}
+
+.section-col img {
+    width: 100%;
+}
+
+.section-col-60 {
+    width: 60%;
+}
+ 
+.section-col-40 {
+    width: 40%;
+}
+
+@media only screen and (max-width: 750px) {
+    .section {
+        display: block;
+    }
+    .section-col,
+    .section-col-40,
+    .section-col-60 {
+        width: 100%;
+    }
+}
+
+.img-abs {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.bubbles {
+    width: 100%;
+    position: relative;
+    bottom: 6rem;
+    left: 0;
+    padding: 0 1rem;
+    background: url('./assets/07_1.png') repeat-x bottom center;
+    background-size: 50vw;
+    height: 13rem;
+}
+
+.background-layer{
+    position: relative;
+}
