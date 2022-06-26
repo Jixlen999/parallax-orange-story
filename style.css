@@ -26,6 +26,7 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     padding: 2rem 3rem;
+    padding-bottom: 0;
     box-sizing: border-box;
 }
 
@@ -80,7 +81,7 @@ p {
 .bubbles {
     width: 100%;
     position: relative;
-    bottom: 6rem;
+    bottom: -100rem;
     left: 0;
     padding: 0 1rem;
     background: url('./assets/07_1.png') repeat-x bottom center;
